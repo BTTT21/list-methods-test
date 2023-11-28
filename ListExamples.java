@@ -34,11 +34,11 @@ class ListExamples {
         index2 += 1;
       }
     }
-    while(index1 < list1.size()) {
+    while(index1 < list1.size()-1) {
       result.add(list1.get(index1));
       index1 += 1;
     }
-    while(index2 < list2.size()) {
+    while(index2 < list2.size()-1) {
       result.add(list2.get(index2));
       index2 += 1;
     }
